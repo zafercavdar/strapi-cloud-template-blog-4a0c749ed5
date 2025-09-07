@@ -1,0 +1,15 @@
+{
+  "public": {
+    "description": "Default public role",
+    "permissions": {
+      "item": {
+        "controllers": {
+          "item": {
+            "find": true,
+            "findOne": true
+          }
+        }
+      }
+    }
+  }
+}
